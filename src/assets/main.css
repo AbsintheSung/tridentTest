@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+#app {
+  height: 100vh;
+}
+.container {
+  @apply mx-auto;
+  max-width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
